@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import image16 from '../assets/images/image_16.jpg';
-import image17 from '../assets/images/image_17.jpg';
-import image18 from '../assets/images/image_18.jpg';
-import image19 from '../assets/images/image_19.jpg';
-import image20 from '../assets/images/image_20.jpg';
+import image16 from '@/assets/images/image_16.jpg';
+import image17 from '@/assets/images/image_17.jpg';
+import image18 from '@/assets/images/image_18.jpg';
+import image19 from '@/assets/images/image_19.jpg';
+import image20 from '@/assets/images/image_20.jpg';
 
 const images = [
   image16,

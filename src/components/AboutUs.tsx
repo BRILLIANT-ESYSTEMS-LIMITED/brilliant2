@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import heroImage from '../assets/images/image_16.jpg';
-import storyImage from '../assets/images/image_17.jpg';
-import teamImage1 from '../assets/images/image_18.jpg';
-import teamImage2 from '../assets/images/image_19.jpg';
-import teamImage3 from '../assets/images/image_20.jpg';
-import teamImage4 from '../assets/images/image_21.jpg';
+import heroImage from '@/assets/images/image_16.jpg';
+import storyImage from '@/assets/images/image_17.jpg';
+import teamImage1 from '@/assets/images/image_18.jpg';
+import teamImage2 from '@/assets/images/image_19.jpg';
+import teamImage3 from '@/assets/images/image_20.jpg';
+import teamImage4 from '@/assets/images/image_21.jpg';
 
 const AboutUs: React.FC = () => {
   const fadeInUp = {
