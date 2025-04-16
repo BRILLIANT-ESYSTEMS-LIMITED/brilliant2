@@ -1,5 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import heroImage from '../assets/images/image_16.jpg';
+import storyImage from '../assets/images/image_17.jpg';
+import teamImage1 from '../assets/images/image_18.jpg';
+import teamImage2 from '../assets/images/image_19.jpg';
+import teamImage3 from '../assets/images/image_20.jpg';
+import teamImage4 from '../assets/images/image_21.jpg';
 
 const AboutUs: React.FC = () => {
   const fadeInUp = {
@@ -13,7 +19,7 @@ const AboutUs: React.FC = () => {
       {/* Hero Section */}
       <div className="relative h-[500px] overflow-hidden">
         <img
-          src="/src/assets/images/image_16.jpg"
+          src={heroImage}
           alt="About Us Hero"
           className="w-full h-full object-cover"
         />
@@ -56,7 +62,7 @@ const AboutUs: React.FC = () => {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <img
-              src="/src/assets/images/image_17.jpg"
+              src={storyImage}
               alt="Our Story"
               className="w-full h-full object-cover"
             />
@@ -134,22 +140,22 @@ const AboutUs: React.FC = () => {
               {
                 name: "John Doe",
                 role: "CEO & Founder",
-                image: "/src/assets/images/image_18.jpg"
+                image: teamImage1
               },
               {
                 name: "Jane Smith",
                 role: "CTO",
-                image: "/src/assets/images/image_19.jpg"
+                image: teamImage2
               },
               {
                 name: "Mike Johnson",
                 role: "Lead Developer",
-                image: "/src/assets/images/image_20.jpg"
+                image: teamImage3
               },
               {
                 name: "Sarah Williams",
                 role: "Design Director",
-                image: "/src/assets/images/image_21.jpg"
+                image: teamImage4
               }
             ].map((member, index) => (
               <motion.div

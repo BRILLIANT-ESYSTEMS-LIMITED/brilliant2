@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import image16 from '../assets/images/image_16.jpg';
+import image17 from '../assets/images/image_17.jpg';
+import image18 from '../assets/images/image_18.jpg';
+import image19 from '../assets/images/image_19.jpg';
+import image20 from '../assets/images/image_20.jpg';
 
 const images = [
-  '/src/assets/images/image_16.jpg',
-  '/src/assets/images/image_17.jpg',
-  '/src/assets/images/image_18.jpg',
-  '/src/assets/images/image_19.jpg',
-  '/src/assets/images/image_20.jpg',
+  image16,
+  image17,
+  image18,
+  image19,
+  image20,
 ];
 
 interface DragEvent {
